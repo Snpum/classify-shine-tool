@@ -2,6 +2,17 @@
 
 ## Project info
 
+The "classify-shine-tool" project is an image classification application built with modern web technologies, including Vite, TypeScript, React, shadcn-ui, and Tailwind CSS. The project is designed for rapid development and easy deployment—users can run it locally with Node.js and npm, or use Lovable's web-based workspace for editing and publishing changes instantly.
+
+## Project Overview
+
+Core Goal: To classify images using machine learning models within a modern, developer-friendly web application.
+
+Edit and Deploy: The codebase supports local development, in-browser edits, and cloud deployment via Lovable, making the workflow accessible and efficient for teams.
+
+Technology Stack: Built using React (for UI), TypeScript (for type safety), Tailwind CSS (for style), and integrated with shadcn-ui for UI components.
+
+
 **URL**: https://lovable.dev/projects/3b052a8d-aa2b-453a-b9fe-08a0410762fd
 
 ## How can I edit this code?
