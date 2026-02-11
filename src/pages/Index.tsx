@@ -6,6 +6,7 @@ import { useToast } from '@/hooks/use-toast';
 import ImageUploader from '@/components/ImageUploader';
 import ImagePreview from '@/components/ImagePreview';
 import ClassificationResults from '@/components/ClassificationResults';
+import EvaluationMetrics from '@/components/EvaluationMetrics';
 
 interface ClassificationResult {
   label: string;
@@ -159,7 +160,7 @@ const Index = () => {
             </p>
           </div>
 
-          {/* Upload Section */}
+      {/* Upload Section */}
           <div className="grid gap-8 lg:grid-cols-2">
             <div className="space-y-6">
               {!selectedFile ? (
@@ -219,6 +220,14 @@ const Index = () => {
               )}
             </div>
           </div>
+
+          {/* Evaluation Metrics Section */}
+          {results.length > 0 && (
+            <EvaluationMetrics
+              results={results}
+              processingTime={processingTime || undefined}
+            />
+          )}
         </div>
       </main>
     </div>
